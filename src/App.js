@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -9,7 +9,7 @@ import WhyThisWebsite from './components/WhyThisWebsite';
 import Footer from './components/Footer';
 
 function App() {
-  const [data, setData] = useState({ 
+  const [data] = useState({ 
     name: '', 
     message: '', 
     image_url: '' 
